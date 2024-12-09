@@ -1,3 +1,4 @@
+
 import {
   mobile,
   backend,
@@ -40,6 +41,7 @@ export const navLinks = [
   },
 ];
 
+
 const services = [
   {
     title: "Data Science Enthusiast",
@@ -62,35 +64,35 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: html,
+    icon: "https://img.icons8.com/?size=100&id=v8RpPQUwv0N8&format=png&color=000000",
   },
   {
     name: "CSS 3",
-    icon: css,
+    icon: "https://img.icons8.com/?size=100&id=7gdY5qNXaKC0&format=png&color=000000",
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000",
   },
   {
     name: "TypeScript",
-    icon: typescript,
+    icon: "https://img.icons8.com/?size=100&id=PZQVBAxaueDJ&format=png&color=000000",
   },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: "https://img.icons8.com/?size=100&id=123609&format=png&color=000000",
   },
   {
     name: "Tailwind CSS",
-    icon: tailwind,
+    icon: "https://img.icons8.com/?size=100&id=x7XMNGh2vdqA&format=png&color=000000",
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: "https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000",
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000",
   },
   {
     name: "Three JS",
@@ -98,7 +100,7 @@ const technologies = [
   },
   {
     name: "git",
-    icon: git,
+    icon: "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
   },
   {
     name: "figma",

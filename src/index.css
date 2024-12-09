@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 @tailwind base;
 @tailwind components;
@@ -18,6 +20,11 @@
   padding-bottom: 100px;
   display: block;
 }
+
+.border-purple-500 {
+  border-color: #8000ff; /* Match the color used for "Shiva" */
+}
+
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */
