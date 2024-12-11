@@ -117,7 +117,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-purple-600 transition-transform transform hover:scale-105"
+            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-purple-400 transition-transform transform hover:scale-105"
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -129,7 +129,7 @@ const Contact = () => {
             href="https://www.linkedin.com/in/shiva-yadav-4043912b9/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-lg hover:shadow-purple-400 transition-all"
+            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
           >
             <i className="fab fa-linkedin-in"></i>
           </a>
@@ -138,7 +138,7 @@ const Contact = () => {
             href="https://www.instagram.com/shiva.datascience/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-lg hover:shadow-purple-400 transition-all"
+            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
           >
             <i className="fab fa-instagram"></i>
           </a>
@@ -147,7 +147,7 @@ const Contact = () => {
             href="https://github.com/shubhamyadav12"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-lg hover:shadow-purple-400 transition-all"
+            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
           >
             <i className="fab fa-github"></i>
           </a>
@@ -156,7 +156,7 @@ const Contact = () => {
             href="https://www.youtube.com/@noisegaming678"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-lg hover:shadow-purple-400 transition-all"
+            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
           >
             <i className="fab fa-youtube"></i>
           </a>
