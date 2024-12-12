@@ -65,20 +65,14 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-{/* Download CV Button */}
-<a
-  href="src/assets/Resume.pdf" // Replace with the actual CV path
-  download
-  className="hidden sm:block ml-6 text-white px-4 py-2 rounded-lg transition-all duration-300 ease-in-out hover:bg-purple-500 hover:text-white hover:shadow-[0_0_20px_5px_rgba(128,0,128,0.8)] border border-purple-500"
->
-  Download CV
-</a>
-
-
-
-
-
-
+          {/* Download CV Button */}
+          <a
+            href="src/assets/Resume.pdf" // Replace with the actual CV path
+            download
+            className="hidden sm:block ml-6 border border-purple-400 text-white px-4 py-2 rounded-lg hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
+          >
+            Download CV
+          </a>
         </div>
 
         {/* Mobile Menu */}
@@ -112,15 +106,13 @@ const Navbar = () => {
               ))}
 
               {/* Download CV Button in Mobile Menu */}
-              {/* Download CV Button */}
-<a
-  href="src/assets/Resume.pdf" // Replace with the actual CV path
-  download
-  className="hidden sm:block ml-6 border border-purple-500 text-white px-4 py-2 rounded-lg hover:bg-purple-500 transition-all duration-300 ease-in-out hover:shadow-[0_0_10px_2px_rgba(128,0,128,0.6)]"
->
-  Download CV
-</a>
-
+              <a
+                href="src/assets/Resume.pdf" // Replace with the actual CV path
+                download
+                className="hidden sm:block ml-6 border border-purple-400 text-white px-4 py-2 rounded-lghover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
+              >
+                Download CV
+              </a>
             </ul>
           </div>
         </div>
