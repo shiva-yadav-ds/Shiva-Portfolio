@@ -8,7 +8,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -19,23 +19,21 @@ const Computers = ({ isMobile }) => {
       />
       <pointLight intensity={1} />
       <primitive
-  object={computer.scene}
-  scale={isMobile ? 0.5 : 0.75} // Reduced scale for mobile
-  position={isMobile ? [0, -3.5, -1.5] : [0, -4, -1.5]} // Adjusted Y-axis values
-  rotation={[-0.01, -0.2, -0.1]}
-/>
-
+        object={computer.scene}
+        scale={isMobile ? 0.55 : 0.75} // Slightly smaller for mobile
+        position={isMobile ? [-2.6, -4, -1.5] : [0, -3.25, -1.5]} // Shifted further left for mobile
+        rotation={[-0.01, -0.2, -0.1]}
+      />
     </mesh>
   );
 };
-
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 768px)"); // Changed to 768px
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
     // Set the initial value of the isMobile state variable
     setIsMobile(mediaQuery.matches);
 
@@ -55,12 +53,18 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: isMobile ? 35 : 25 }} // Adjusted FOV for mobile
+      camera={{
+        position: [20, 3, 5],
+        fov: isMobile ? 25 : 25,
+      }}
       gl={{ preserveDrawingBuffer: true }}
-      style={{ height: isMobile ? '400px' : '600px' }} // Added explicit height
+      style={{
+        height: isMobile ? "450px" : "600px", // Reduced height for mobile
+        marginBottom: isMobile ? "-120px" : "0", // Adjusted margin
+      }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
