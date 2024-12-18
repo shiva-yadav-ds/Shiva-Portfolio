@@ -133,6 +133,18 @@
   transform: translateZ(0);
 }
 
+/* Mobile optimization */
+@media (max-width: 768px) {
+  canvas {
+    touch-action: none;
+  }
+  
+  .canvas-container {
+    height: 400px !important;
+  }
+}
+
+
 @keyframes mulShdSpin {
   0%,
   100% {
