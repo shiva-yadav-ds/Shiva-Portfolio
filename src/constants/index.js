@@ -80,7 +80,7 @@ const technologies = [
   },
   {
     name: "React JS",
-    icon: "https://img.icons8.com/?size=100&id=123609&format=png&color=000000",
+    icon: "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000",
   },
   {
     name: "Tailwind CSS",
@@ -96,7 +96,7 @@ const technologies = [
   },
   {
     name: "Three JS",
-    icon: "https://img.icons8.com/?size=100&id=3767&format=png&color=000000",
+    icon: "https://img.icons8.com/?size=100&id=QSjnrUKYMnxO&format=png&color=000000",
   },
   {
     name: "git",
