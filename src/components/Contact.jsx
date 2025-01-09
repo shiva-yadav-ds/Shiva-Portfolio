@@ -144,7 +144,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://github.com/shubhamyadav12"
+            href="https://github.com/shiva-iitm"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
