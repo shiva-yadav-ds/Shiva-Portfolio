@@ -21,6 +21,7 @@ import {
   tesla,
   shopify,
   carrent,
+  dignosis,
   jobit,
   tripguide,
   threejs,
@@ -201,25 +202,34 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Clinical Suite",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An AI-powered web platform for clinical diagnosis, assisting in disease prediction and patient health assessment with advanced machine learning models.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "pandas",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "numpy",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "white-text-gradient",
+      },
+      {
+        name: "scikit-learn",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dignosis,
+    source_code_link: "https://github.com/shiva-yadav-ds/Prediction-of-Disease-Outbreaks",
+    live_demo_link: "https://your-live-demo-link.com", // Yahan actual live link daalna
   },
   {
     name: "Job IT",

@@ -17,5 +17,5 @@ def search_files(directory, search_text):
                 pass
 
 # Example usage
-search_files('.', "About")
+search_files('.', "carrent")
 
