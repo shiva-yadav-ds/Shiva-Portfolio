@@ -1,4 +1,3 @@
-
 import {
   mobile,
   backend,
@@ -22,8 +21,7 @@ import {
   shopify,
   carrent,
   dignosis,
-  jobit,
-  tripguide,
+  iitmhub,
   threejs,
 } from "../assets";
 
@@ -229,49 +227,29 @@ const projects = [
     ],
     image: dignosis,
     source_code_link: "https://github.com/shiva-yadav-ds/Prediction-of-Disease-Outbreaks",
-    live_demo_link: "https://your-live-demo-link.com", // Yahan actual live link daalna
+    live_demo_link: "https://clinical-ai-diagnostic-suite.streamlit.app/",
   },
   {
-    name: "Job IT",
+    name: "IITM Scholar Hub",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A comprehensive platform for IITM students to predict end-term marks, calculate CGPA, generate resumes, and access learning roadmaps for Data Science, DSA, Python, and Java. Features an AI Assistant for solving mathematics and statistics problems.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+        name: "javascript",
+        color: "orange-text-gradient",
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: iitmhub,
+    source_code_link: "https://github.com/shiva-yadav-ds/",
+    live_demo_link: "https://iitm-scholar-hub.vercel.app/",
   },
 ];
 

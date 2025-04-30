@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import webIcon from "./web.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -24,16 +25,14 @@ import python from "./tech/python.png";
 import numpy from "./tech/numpy.png";
 import threejs from "./tech/threejs.svg";
 
-
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import dignosis from "./Ai_Clinical_Diagnosis.png";
+import iitmhub from "./IItm_Scholar_hub.png"; // Using the same image temporarily
 
 export {
   logo,
@@ -42,6 +41,7 @@ export {
   mobile,
   web,
   github,
+  webIcon,
   menu,
   close,
   css,
@@ -63,8 +63,7 @@ export {
   tesla,
   carrent,
   dignosis,
-  jobit,
-  tripguide,
+  iitmhub,
   pandas,
   python,
   numpy,

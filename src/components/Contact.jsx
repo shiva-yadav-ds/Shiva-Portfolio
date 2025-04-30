@@ -61,114 +61,80 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className="max-w-7xl mx-auto px-4">
+      <div className="flex flex-col md:flex-row w-full justify-between items-center gap-6 md:gap-4">
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+          className="w-full md:w-[50%] lg:w-[55%]"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact</h3>
+          <div className="bg-black-100 p-5 md:p-6 rounded-2xl">
+            <h3 className={`${styles.sectionHeadText} mb-2`}>Contact</h3>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+              className="mt-4 flex flex-col gap-4"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+                <span className="text-white font-medium mb-2">Your Name</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                  className="bg-tertiary py-3 px-4 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
           </label>
 
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Email</span>
+                <span className="text-white font-medium mb-2">Your Email</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                  className="bg-tertiary py-3 px-4 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
           </label>
 
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+                <span className="text-white font-medium mb-2">Your Message</span>
             <textarea
-              rows={7}
+                  rows={3}
               name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+                  className="bg-tertiary py-3 px-4 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
           </label>
 
+              <div className="pb-2 pt-1">
           <button
             type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-purple-400 transition-transform transform hover:scale-105"
+                  className="bg-tertiary py-2.5 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-purple-400 transition-transform transform hover:scale-105"
           >
             {loading ? "Sending..." : "Send"}
           </button>
+              </div>
         </form>
-
-        {/* Social Media Icons */}
-        <div className="social-media flex gap-4 mt-6">
-          <a
-            href="https://www.linkedin.com/in/shiva-yadav-4043912b9/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-
-          <a
-            href="https://www.instagram.com/shiva.datascience/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
-
-          <a
-            href="https://github.com/shiva-yadav-ds"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
-          >
-            <i className="fab fa-github"></i>
-          </a>
-
-          <a
-            href="https://www.youtube.com/@noisegaming678"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex justify-center items-center border-2 border-purple-400 rounded-full text-purple-400 hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
-          >
-            <i className="fab fa-youtube"></i>
-          </a>
         </div>
       </motion.div>
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+          className="w-full md:w-[50%] lg:w-[45%] h-[320px] md:h-[380px] flex items-center justify-center"
       >
+          <div className="w-full h-full scale-110 flex items-center justify-center">
         <EarthCanvas />
+          </div>
       </motion.div>
+      </div>
     </div>
   );
 };
