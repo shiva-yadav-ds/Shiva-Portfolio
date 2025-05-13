@@ -67,7 +67,7 @@ const Navbar = () => {
           </ul>
           {/* Download CV Button */}
           <a
-            href="https://docs.google.com/document/d/19Q3MB9tmS6zCOcHZOjqokGPduw_ZTOJFR8Vxq-3WQ_A/edit?tab=t.0"
+            href="https://docs.google.com/document/d/19Q3MB9tmS6zCOcHZOjqokGPduw_ZTOJFR8Vxq-3WQ_A/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:block ml-6 border border-purple-400 text-white px-4 py-2 rounded-lg hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
@@ -108,7 +108,7 @@ const Navbar = () => {
 
               {/* Download CV Button in Mobile Menu */}
               <a
-                href="https://docs.google.com/document/d/19Q3MB9tmS6zCOcHZOjqokGPduw_ZTOJFR8Vxq-3WQ_A/edit?tab=t.0"
+                href="https://docs.google.com/document/d/19Q3MB9tmS6zCOcHZOjqokGPduw_ZTOJFR8Vxq-3WQ_A/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-purple-400 text-white px-4 py-2 rounded-lg hover:bg-purple-400 hover:text-white hover:shadow-purple-400 hover:shadow-[0_0_18px_3px] transition-all"
